@@ -11,3 +11,7 @@ from itemadapter import ItemAdapter
 class MiniProjectPipeline:
     def process_item(self, item, spider):
         return item
+
+class BookscraperPipeline:
+    def process_item(self, item, spider):
+        item['title'] = item['title'].strip() if item['title'] else None
