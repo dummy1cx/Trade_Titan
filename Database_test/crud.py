@@ -30,7 +30,7 @@ def delete_employee(db: Session, emp_id : int):
     db_employee = db.query(models.Employee).filter(models.Employee.id == emp_id).first()
     if db_employee :
         db.delete(db_employee)
-        db.comit()
+        db.commit()
 
     return db_employee
 
