@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-import models, schemas
+import models, scemas
 
 
 
@@ -9,14 +9,14 @@ def get_employees(db: Session):
 def get_employee(db: Session, emp_id : int):
     return db.query(models.Employee).filter(models.Employee.id == emp_id).first()
 
-def create_employee(db: Session, employee: schemas.EmployeeCreate):
+def create_employee(db: Session, employee: scemas.EmployeeCreate):
     db_employee = models.Employee(name=employee.name, email = employee.email)
     db.add(db_employee)
     db.commit()
     db.refresh(db_employee)
     return db_employee
 
-def update_employee(db: Session, emp_id : int, employee: schemas.EmployeeUpdate):
+def update_employee(db: Session, emp_id : int, employee: scemas.EmployeeUpdate):
     db_employee = db.query(models.Employee).filter(models.Employee.id == emp_id).first()
     if db_employee : 
         db_employee.name = employee.name
