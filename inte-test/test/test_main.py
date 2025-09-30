@@ -13,8 +13,8 @@ def test_eligibility_pass():
         'age' : 25,
         'employment_status' : 'employed'
     }
-    respone = client.post('/loan-eligibility', json = payload)
-    assert resposne.status_code == 200
+    response = client.post('/loan-eligibility', json = payload)
+    assert response.status_code == 200
     assert response.json() == {'eligible' : True}
 
 
