@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv_fastapi/
+
+# Python cache and system junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.DS_Store
+
+# Ignore non-deployment folders
+data/
+notebooks/
+
+# Git and editor configs
+.git/
+.gitignore
+.vscode/
