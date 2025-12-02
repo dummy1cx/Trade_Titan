@@ -85,7 +85,11 @@ How is Microsoft planning to increase their profit for the next financial year?
 <div style="display:flex; gap:12px;"> <div style="flex:1; border:1px solid #ddd; padding:18px; border-radius:10px; background:#eef2f7;"> <h3>AI Models</h3> LSTM for stock forecasting Random Forest for loan approval XGBoost for insurance premium Embedding + FAISS for SEC filings retrieval </div> <div style="flex:1; border:1px solid #ddd; padding:18px; border-radius:10px; background:#eef2f7;"> <h3>Agent Stack</h3> LangChain tool routing LangGraph planning Autonomous decision making Self verification loop </div> <div style="flex:1; border:1px solid #ddd; padding:18px; border-radius:10px; background:#eef2f7;"> <h3>Deployment</h3> FastAPI microservices Docker containers AWS EC2 hosting Prometheus and Grafana monitoring MLflow and W and B tracking </div> </div> <br>
 🐳 Docker Images
 <div style="border:1px solid #ddd; padding:18px; border-radius:10px; background:#f8f9fa;"> <pre> docker pull abhi1199/multi_agent:latest docker pull abhi1199/finance-agent:latest docker pull abhi1199/ml_fastapi_app:latest </pre> </div> <br>
-📦 Docker Hub Repositories
-<div style="border:1px solid #ddd; padding:18px; border-radius:10px; background:#fff;"> <a href="https://hub.docker.com/r/abhi1199/multi_agent">multi_agent</a><br> <a href="https://hub.docker.com/r/abhi1199/finance-agent">finance-agent</a><br> <a href="https://hub.docker.com/r/abhi1199/ml_fastapi_app">ml_fastapi_app</a> </div> <br>
+<div style="border:1px solid #ddd; padding:18px; border-radius:10px; background:#fff;">
+  <a href="https://hub.docker.com/r/abhi1199/multi_agent">multi_agent</a><br><br>
+  <a href="https://hub.docker.com/r/abhi1199/finance-agent">finance-agent</a><br><br>
+  <a href="https://hub.docker.com/r/abhi1199/ml_fastapi_app">ml_fastapi_app</a>
+</div>
+
 🌐 Deployment Access
-<div style="border:1px solid #ccc; padding:18px; border-radius:10px; background:#f3f5f7;"> Your system is live at: <strong><a href="http://34.229.199.104:8000/web/">http://34.229.199.104:8000/web/</a></strong> </div> <br>
+<div style="border:1px solid #ccc; padding:18px; border-radius:10px; background:#f3f5f7;">  system is live at: <strong><a href="http://34.229.199.104:8000/web/">http://34.229.199.104:8000/web/</a></strong> </div> <br>
