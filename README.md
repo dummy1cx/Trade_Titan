@@ -28,43 +28,55 @@ It can forecast stock prices, evaluate loans, estimate insurance premiums, searc
 
 The interface lets users submit questions in natural language while agents autonomously plan, select tools, verify outputs, and answer with citations where needed.
 
-<br>
-🔍 Try These Prompts (Showcase)
-<div style="border:1px solid #ccc; padding:18px; border-radius:10px; background:#f9f9f9; line-height:1.6;">
-Loan Approval
+<div style="
+  border:1px solid #ccc; 
+  padding:22px; 
+  border-radius:14px; 
+  background:#f9f9f9; 
+  line-height:1.55;
+  font-size:15px;
+">
 
-I’m applying for a home loan. Estimate approval and confidence.
-Gender=Male Married=Yes Dependents=1 Education=Graduate Self_Employed=No
-ApplicantIncome=6500 CoapplicantIncome=1500 LoanAmount=180 Term=360
-Credit_History=1.0 Property_Area=Urban
+<h3>01. Loan Approval Estimate</h3>
+I’m applying for a home loan—can you estimate whether I’d be approved and the confidence?<br>
+Gender=Male Married=Yes Dependents=1 Education=Graduate Self_Employed=No ApplicantIncome=6500 CoapplicantIncome=1500 LoanAmount=180 Loan_Amount_Term=360 Credit_History=1.0 Property_Area=Urban
 
-Stock Forecast
+<hr>
 
-Predict the next closing price for Apple.
+<h3>02. Stock Forecasting</h3>
+Could you predict the next closing price for Apple?<br>
 ticker=AAPL
 
-Insurance Premium
+<hr>
 
-age=40 weight=70 bmi=24 children=2 region=urban smoker=yes sex=male
+<h3>03. Insurance Premium</h3>
+How much should I pay for insurance? calculate from tool_insurance.<br>
+age = 40 weight = 70 bmi = 24 children = 2 region = urban smoker = yes sex = male
 
-Insurance with Explanation
+<hr>
 
-age=40 weight=90 bmi=54 children=7 region=southeast smoker=yes sex=male
+<h3>04. Insurance with Explanation</h3>
+age = 40 weight = 90 bmi = 54 children = 7 region = southeast smoker = yes sex = male<br>
 Give a detailed explanation.
 
-RAG: Governance Query
+<hr>
 
-From Boeing's DEF 14A
-When did Alan R. Mulally join the Board?
+<h3>05. RAG: Corporate Governance Query</h3>
+From Boeing’s DEF 14A, since when has Alan R. Mulally served on the company’s Board of Directors?
 
-RAG: Risk Disclosure
+<hr>
 
-From Alphabet's 10-K
-What risks are cited about international operations?
+<h3>06. RAG: International Risk Exposure</h3>
+From Alphabet’s 10-K, what risks does the company cite related to operating internationally and to financial exposures?  
+Keep it concise and include citations.
 
-Business Insight
+<hr>
 
-How is Microsoft planning to increase profit next financial year?
+<h3>07. Business Insight</h3>
+How is Microsoft planning to increase their profit for the next financial year?
+
+</div>
+
 
 </div> <br>
 ⚙️ System Architecture
