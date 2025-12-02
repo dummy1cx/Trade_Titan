@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Finance Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app__header">
+      <div class="brand">Finance Assistant</div>
+      <div class="status" id="status">offline</div>
+    </header>
+
+    <main class="chat">
+      <div id="messages" class="messages">
+        <div class="row assistant">
+          <div class="bubble assistant">
+            Hey! Ask me about stocks, insurance, loans, or your documents.
+          </div>
+        </div>
+      </div>
+
+      <form id="chat-form" class="composer" autocomplete="off">
+        <input
+          id="chat-input"
+          class="composer__input"
+          placeholder="Type a message…"
+          autocomplete="off"
+          type="text"
+        />
+        <button id="send-btn" class="composer__send" type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

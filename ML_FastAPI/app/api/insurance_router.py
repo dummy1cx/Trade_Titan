@@ -44,5 +44,5 @@ def predict_insurance(payload: InsuranceInput):
         }
 
     except Exception as e:
-        print("❌ Error during insurance prediction:", e)
+        print("Error during insurance prediction:", e)
         raise HTTPException(status_code=500, detail=str(e))
