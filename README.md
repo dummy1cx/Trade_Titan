@@ -1,5 +1,6 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/(https://github.com/dummy1cx/Trade_Titan/blob/3aced260309d8a0c6d52b1b3c9bd29e689a04771/preview.png)" width="40%">
+<img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/preview.png" width="40%">
+
 
 
 ⚡ Agentic AI Finance Assistant
