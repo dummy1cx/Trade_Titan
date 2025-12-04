@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/rickstaa/readme-generator/main/templates/banner.png" width="100%">
+<img src="Image" width="100%">
 ⚡ Agentic AI Finance Assistant
 
 A production ready multi agent financial system that forecasts, retrieves, reasons, and answers domain specific questions with grounded citations.
