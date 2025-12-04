@@ -75,8 +75,9 @@ Keep it concise and include citations.
 
 <hr>
 
-<h3>07. Business Insight</h3>
-How is Microsoft planning to increase their profit for the next financial year?
+<h3>07. Metrics</h3>
+WandB Loggers
+<img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/preview.png" width="40%">
 
 </div>
 
