@@ -1,5 +1,5 @@
 <div align="center">
-<img src="<img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/ChatGPT Image Dec 4, 2025, 10_22_23 AM.png" width="100%">
+<img src="<img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/ChatGPT Image Dec 4, 2025, 10_22_23 AM.png" width="100%">
 " width="100%">
 ⚡ Agentic AI Finance Assistant
 
