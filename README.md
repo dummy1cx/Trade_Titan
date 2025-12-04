@@ -75,16 +75,14 @@ Keep it concise and include citations.
 
 <hr>
 
-<h3>07. Metrics</h3>
-WandB Loggers
-<img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/preview.png" width="40%">
+
 
 </div>
 
 
 </div> <br>
 ⚙️ System Architecture
-<div align="center"> <img src="https://raw.githubusercontent.com/rickstaa/readme-generator/main/templates/diagram.png" width="80%"> </div> <br>
+<div align="center"><img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/preview2.png" width="40%"> </div> <br>
 🧠 Core Components
 <div style="display:flex; gap:12px;"> <div style="flex:1; border:1px solid #ddd; padding:18px; border-radius:10px; background:#eef2f7;"> <h3>AI Models</h3> LSTM for stock forecasting Random Forest for loan approval XGBoost for insurance premium Embedding + FAISS for SEC filings retrieval </div> <div style="flex:1; border:1px solid #ddd; padding:18px; border-radius:10px; background:#eef2f7;"> <h3>Agent Stack</h3> LangChain tool routing LangGraph planning Autonomous decision making Self verification loop </div> <div style="flex:1; border:1px solid #ddd; padding:18px; border-radius:10px; background:#eef2f7;"> <h3>Deployment</h3> FastAPI microservices Docker containers AWS EC2 hosting Prometheus and Grafana monitoring MLflow and W and B tracking </div> </div> <br>
 🐳 Docker Images
