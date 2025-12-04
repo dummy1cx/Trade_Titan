@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/dummy1cx/Trade_Titan/main/ChatGPT%20Image%20Dec%204%2C%202025%2C%2010_22_23%20AM.png" width="40%">
 
-" width="100%">
+
 ⚡ Agentic AI Finance Assistant
 
 A production ready multi agent financial system that forecasts, retrieves, reasons, and answers domain specific questions with grounded citations.
